@@ -8,7 +8,7 @@ import time
 import requests
 
 # Configuração do Selenium
-driver_path = r"A:\monitoramentomoeda\chromedriver.exe"  # Caminho do ChromeDriver
+driver_path = r"chromedriver.exe"  # Caminho do ChromeDriver
 service = Service(driver_path)
 options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=service, options=options)
@@ -76,7 +76,7 @@ def monitorar_cripto(grupo):
         print(f"Erro ao monitorar a criptomoeda: {e}")
 
 if __name__ == "__main__":
-    grupo = "Avisos Cripto"
+    grupo = "Avisos Cripto" #colcoar seu grupo aqui
     iniciar_whatsapp()
 
     while True:
