@@ -12,7 +12,7 @@ Um bot em Python que monitora o preço de criptomoedas através da API do Mercad
 
 ## 📋 Pré-requisitos
 - Python 3.x
-- Chrome WebDriver
+- Chrome WebDriver ( baixe a versão compativel com seu navegador)
 - Bibliotecas Python:
   - selenium
   - requests
